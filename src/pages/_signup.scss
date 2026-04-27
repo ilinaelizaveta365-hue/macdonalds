@@ -1,0 +1,64 @@
+#hero-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 95px;
+
+    h1 {
+        padding: 30px;
+    }
+
+    img {
+        width: 1168px;
+        height: 520px;
+    }
+}
+
+#email {
+    width: 100%;
+    display: flex;
+    padding-bottom: 95px;
+
+    .sign {
+        width: 772px;
+        height: 301px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 178px;
+
+        .join {
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+        .reg {
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                input{
+                    border: 0;
+                    border-bottom: 0.1px solid rgb(46, 46, 46);
+                }
+                .open {
+                    width: 170px;
+                    height: 46px;
+                    background-color: #ffbc0d;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    a {
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                    }
+                }
+            }
+        }
+
+    }
+}

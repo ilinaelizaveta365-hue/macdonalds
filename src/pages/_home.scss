@@ -176,4 +176,33 @@
             }
         }
     }
+
+    .card-items {
+        width: 389px;
+        height: 436px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+
+        img {
+            width: 357px;
+            height: 157px;
+        }
+
+        .open {
+            width: 178px;
+            height: 48px;
+            background-color: #ffbc0d;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                font-size: 14px;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
 }

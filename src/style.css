@@ -16,6 +16,10 @@ footer .footer-top .cols {
   flex-direction: column;
   padding: 30px;
 }
+footer .footer-top .cols h2 {
+  font-size: 15px;
+  padding-left: 30px;
+}
 footer .footer-top .cols h2 a {
   text-decoration: none;
   color: black;
@@ -23,6 +27,7 @@ footer .footer-top .cols h2 a {
 footer .footer-top .cols ul {
   list-style-type: none;
   gap: 10px;
+  font-size: 15px;
 }
 footer .footer-top .cols ul a {
   text-decoration: none;
@@ -38,11 +43,29 @@ footer .social ul {
   gap: 20px;
   display: flex;
 }
-footer .social ul a {
+footer .social ul .fa-facebook {
   color: black;
 }
-footer .social ul a:hover {
-  color: rgb(143, 144, 144);
+footer .social ul .fa-facebook:hover {
+  color: rgb(30, 41, 201);
+}
+footer .social ul .fa-youtube {
+  color: black;
+}
+footer .social ul .fa-youtube:hover {
+  color: rgb(197, 19, 19);
+}
+footer .social ul .fa-instagram {
+  color: black;
+}
+footer .social ul .fa-instagram:hover {
+  color: rgb(194, 32, 102);
+}
+footer .social ul .fa-linkedin-in {
+  color: black;
+}
+footer .social ul .fa-linkedin-in:hover {
+  color: rgb(25, 114, 192);
 }
 footer .social .link-apps {
   display: flex;
@@ -52,6 +75,7 @@ footer .footer-bottom {
   display: flex;
   justify-content: flex-end;
   padding: 50px;
+  border-top: 0.1px solid rgb(147, 147, 147);
 }
 footer .footer-bottom img {
   width: 28px;
@@ -253,6 +277,85 @@ header .header-txt .header-bottom a {
   align-items: center;
 }
 #options .card-item .open a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#options .card-items {
+  width: 389px;
+  height: 436px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+#options .card-items img {
+  width: 357px;
+  height: 157px;
+}
+#options .card-items .open {
+  width: 178px;
+  height: 48px;
+  background-color: #ffbc0d;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#options .card-items .open a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 95px;
+}
+#hero-section h1 {
+  padding: 30px;
+}
+#hero-section img {
+  width: 1168px;
+  height: 520px;
+}
+
+#email {
+  width: 100%;
+  display: flex;
+  padding-bottom: 95px;
+}
+#email .sign {
+  width: 772px;
+  height: 301px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 178px;
+}
+#email .sign .join h2 {
+  font-size: 20px;
+}
+#email .sign .reg form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#email .sign .reg form input {
+  border: 0;
+  border-bottom: 0.1px solid rgb(46, 46, 46);
+}
+#email .sign .reg form .open {
+  width: 170px;
+  height: 46px;
+  background-color: #ffbc0d;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#email .sign .reg form .open a {
   font-size: 14px;
   text-decoration: none;
   color: rgb(0, 0, 0);
