@@ -1,0 +1,27 @@
+#mcvalue{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 95px;
+
+    h1 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    img {
+        width: 1168px;
+        height: 520px;
+    }
+}
+#text-con{
+    width: 100%;
+    padding-left: 179px;
+    p{
+        font-size: 15px;
+    }
+    ul{
+        font-size: 15px;
+    }
+}
