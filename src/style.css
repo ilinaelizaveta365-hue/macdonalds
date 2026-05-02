@@ -438,4 +438,32 @@ header .header-txt .header-bottom a {
 }
 #desc a {
   color: rgb(7, 80, 159);
+}
+
+#beef {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#beef p {
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+#video {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#care {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-bottom: 67px;
+}
+#care a {
+  color: rgb(3, 42, 114);
 }/*# sourceMappingURL=style.css.map */
