@@ -361,22 +361,6 @@ header .header-txt .header-bottom a {
   color: rgb(0, 0, 0);
 }
 
-#mcvalue {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 95px;
-}
-#mcvalue h1 {
-  padding: 30px;
-  text-align: center;
-}
-#mcvalue img {
-  width: 1168px;
-  height: 520px;
-}
-
 #text-con {
   width: 100%;
   padding-left: 179px;
@@ -386,4 +370,72 @@ header .header-txt .header-bottom a {
 }
 #text-con ul {
   font-size: 15px;
+}
+
+#mcdev {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 95px;
+}
+#mcdev h1 {
+  padding: 30px;
+}
+#mcdev img {
+  width: 1168px;
+  height: 520px;
+}
+
+#order-mc {
+  width: 100%;
+  font-size: 15px;
+  padding-left: 180px;
+  padding-bottom: 40px;
+}
+
+#dos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+#dos .card-item {
+  width: 554px;
+  height: 511px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#dos .card-item img {
+  width: 554px;
+  height: 266px;
+}
+#dos .card-item .open {
+  width: 178px;
+  height: 48px;
+  background-color: #ffbc0d;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dos .card-item .open a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 180px;
+  padding-bottom: 60px;
+}
+#desc a {
+  color: rgb(7, 80, 159);
 }/*# sourceMappingURL=style.css.map */
